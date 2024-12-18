@@ -1,0 +1,27 @@
+{
+  "name": "dw",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/GeronimoAlvarez/DW#readme",
+  "bugs": {
+    "url": "https://github.com/GeronimoAlvarez/DW/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeronimoAlvarez/DW.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.1.9"
+  }
+}
